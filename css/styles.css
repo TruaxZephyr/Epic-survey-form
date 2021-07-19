@@ -1,0 +1,51 @@
+#title {
+    color: red;
+    text-align: center;
+}
+
+#description {
+    color: rgb(255, 230, 0);
+    text-align:center;
+}
+
+body {
+    background-repeat:repeat-1;
+    background-size: 100%;
+}
+
+#survey-form {
+    width:900px;
+    text-align:justify;
+    background-color:beige;
+    opacity: 0.8;      
+}
+
+#survey-form {
+    position: relative;
+    left: 500px;
+}
+
+.group {
+    padding: 30px;
+}
+
+#name {
+    position: relative;
+    top: 25px;
+    right: 60px;
+}
+
+#email {
+    position: relative;
+    top: 25px;
+    right: 60px;
+}
+
+#number {
+    position: relative;
+    top: 25px;
+    right: 135px;
+}
+
+
+
