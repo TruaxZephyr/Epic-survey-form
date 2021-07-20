@@ -17,16 +17,22 @@ body {
     width:900px;
     text-align:justify;
     background-color:beige;
-    opacity: 0.8;      
+    opacity: 0.8;
+    border-radius: 5px;      
 }
 
 #survey-form {
     position: relative;
-    left: 500px;
+    margin: auto;
+}
+
+#container {
+    margin: auto;
 }
 
 .group {
     padding: 30px;
+    border-radius: 5px;
 }
 
 #name {
@@ -35,6 +41,7 @@ body {
     right: 60px;
     height: 35px;
     width: 400px;
+    border-radius: 10px;
 }
 
 #email {
@@ -43,10 +50,11 @@ body {
     right: 60px;
     height: 35px;
     width: 400px;
+    border-radius: 10px
 }
 
 .role-picklist {
-  
+    border-radius: 10px;
     height: 35px;
     width: 400px;
 }
@@ -57,17 +65,34 @@ body {
     right: 135px;
     width: 400px;
     height: 35px;
+    border-radius: 10px;
 }
 
 #comments {
     width: 400px;
+    border-radius: 10px;
 }
 
 #submit {
     width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0F5897;   
 }
+
+#submit:hover {
+    animation-name: background-color;
+    animation-duration: 2000ms;
+  }
+
+  @keyframes background-color {
+    100% {
+      background-color: #4791d0;
+    }
+  }
 
 #module {
     width: 400px;
     height: 35px;
+    border-radius: 10px;
 }
