@@ -31,21 +31,43 @@ body {
 
 #name {
     position: relative;
-    top: 25px;
+    top: 30px;
     right: 60px;
+    height: 35px;
+    width: 400px;
 }
 
 #email {
     position: relative;
-    top: 25px;
+    top: 30px;
     right: 60px;
+    height: 35px;
+    width: 400px;
+}
+
+.role-picklist {
+  
+    height: 35px;
+    width: 400px;
 }
 
 #number {
     position: relative;
-    top: 25px;
+    top: 30px;
     right: 135px;
+    width: 400px;
+    height: 35px;
 }
 
+#comments {
+    width: 400px;
+}
 
+#submit {
+    width: 100px;
+}
 
+#module {
+    width: 400px;
+    height: 35px;
+}
